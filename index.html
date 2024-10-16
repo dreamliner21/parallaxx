@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>Nama Anda</h1>
+    <p>Web Developer | Designer | Freelancer</p>
+  </header>
+
+  <!-- Parallax Section 1 -->
+  <section class="parallax" id="parallax1">
+    <div class="text-overlay animate" data-animate="fade-in">
+      <h2>Tentang Saya</h2>
+      <p>Saya seorang web developer yang berfokus pada desain responsif dan pengalaman pengguna yang optimal.</p>
+    </div>
+  </section>
+
+  <!-- Proyek dan Jelajahi Karya Saya -->
+  <section class="content animate" data-animate="slide-up">
+    <h2>Jelajahi Karya Saya</h2>
+    <div class="projects">
+      <div class="project-card" onclick="playVideo('video1', this)">
+        <img src="https://l.top4top.io/p_3211yfyxb1.jpg" alt="Project 1" class="project-image">
+        <video id="video1" class="project-video">
+          <source src="https://d.top4top.io/m_32114pwpv1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <h3>Project 1</h3>
+        <p>Deskripsi singkat tentang proyek pertama Anda.</p>
+      </div>
+      <div class="project-card" onclick="playVideo('video2', this)">
+        <img src="https://a.top4top.io/p_3211hqpwr1.jpg" alt="Project 2" class="project-image">
+        <video id="video2" class="project-video">
+          <source src="https://e.top4top.io/m_3211fr7oj1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <h3>Project 2</h3>
+        <p>Deskripsi singkat tentang proyek kedua Anda.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parallax Section 2 -->
+  <section class="parallax" id="parallax2">
+    <div class="text-overlay animate" data-animate="fade-in">
+      <h2>Jelajahi Karya Saya</h2>
+    </div>
+  </section>
+
+  <!-- Closing Section -->
+  <div class="closing">
+    <h2>Terima Kasih Telah Berkunjung!</h2>
+    <p>Terhubung dengan saya di media sosial:</p>
+
+    <div class="social-icons">
+      <a href="https://github.com/username" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://instagram.com/username" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://tiktok.com/@username" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://twitter.com/username" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="mailto:youremail@example.com" target="_blank"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.threads.net/@username" target="_blank"><i class="fas fa-comment-dots"></i></a>
+    </div>
+
+    <blockquote class="quote">
+      "The best way to predict the future is to create it." – Peter Drucker
+    </blockquote>
+
+    <footer class="footer">
+      <p>&copy; 2024 Nama Anda. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
